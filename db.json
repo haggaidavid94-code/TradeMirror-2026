@@ -1,0 +1,91 @@
+{
+  "trades": [
+    {
+      "asset": "TSLA",
+      "date": "Oct 24, 10:15 AM",
+      "type": "Long",
+      "size": "200 Shares",
+      "tags": ["Bull Flag", "Calm"],
+      "entry": "$245.50",
+      "exit": "$248.50",
+      "duration": "45m",
+      "risk": 250,
+      "pnl": 600,
+      "color": "bg-sky-500",
+      "assetClass": "Equities",
+      "strategy": "Bull Flag",
+      "timeframe": "Intraday"
+    },
+    {
+      "asset": "NVDA",
+      "date": "Oct 24, 09:40 AM",
+      "type": "Short (Puts)",
+      "size": "5 Contracts",
+      "tags": ["VWAP Reject", "FOMO"],
+      "entry": "$4.20",
+      "exit": "$3.48",
+      "duration": "12m",
+      "risk": 300,
+      "pnl": -360,
+      "color": "bg-purple-500",
+      "assetClass": "Options",
+      "strategy": "VWAP Bounce",
+      "timeframe": "Intraday"
+    },
+    {
+      "asset": "BTC/USD",
+      "date": "Oct 23, 14:20 PM",
+      "type": "Long",
+      "size": "0.5 BTC",
+      "tags": ["Breakout", "Confident"],
+      "entry": "$66,200",
+      "exit": "$68,000",
+      "duration": "3h 20m",
+      "risk": 500,
+      "pnl": 900,
+      "color": "bg-orange-500",
+      "assetClass": "Crypto",
+      "strategy": "ORB Breakout",
+      "timeframe": "Intraday"
+    },
+    {
+      "asset": "AAPL",
+      "date": "Oct 23, 10:30 AM",
+      "type": "Short",
+      "size": "150 Shares",
+      "tags": ["VWAP Reject", "Patient"],
+      "entry": "$175.20",
+      "exit": "$172.50",
+      "duration": "1h 15m",
+      "risk": 200,
+      "pnl": 420,
+      "color": "bg-sky-500",
+      "assetClass": "Equities",
+      "strategy": "VWAP Bounce",
+      "timeframe": "Daily"
+    }
+  ],
+  "journalEntries": [
+    {
+      "date": "2023-10-24",
+      "mindset": 8,
+      "intention": "Trade slowly and wait for confirmation.",
+      "proudOf": "I waited for the setup on TSLA instead of forcing an early entry.",
+      "needsWork": "Avoid adding size before confirmation on second entry.",
+      "mood": "Focused",
+      "status": "Review saved",
+      "score": 8.4
+    }
+  ],
+  "userSettings": {
+    "initialBalance": 40000.00,
+    "currentBalance": 42850.25,
+    "currency": "USD"
+  },
+  "readinessChecklist": [
+    { "id": 1, "label": "Reviewed market context", "note": "SPY holding above prior day high...", "checked": true },
+    { "id": 2, "label": "Defined A+ setups only", "note": "VWAP reclaim and opening pullback...", "checked": true },
+    { "id": 3, "label": "Risk and stop rules set", "note": "Risk capped at $125 per trade...", "checked": true },
+    { "id": 4, "label": "Write one sentence of restraint", "note": "Skip anything that needs chasing.", "checked": false }
+  ]
+}
